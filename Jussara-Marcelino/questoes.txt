@@ -1,0 +1,66 @@
+1 - Diferenciar as camadas 2 e 3 do modelo OSI, e indicar os protocolos utilizados para endereçamento
+ nestas camadas.
+A camada 2 (Enlace de dados), se preocupa quando se refere às tecnologias usadas para conectar computadores em uma mesma rede
+aonde a camada fisica já existe. A camada 2 geralmente é dividida em duas subcamadas: a camada Media Access 
+Control (MAC) e a camada Logical Link Control (LLC). Os protocolos usados são o Ethernet, Wi-Fi.
+
+Já a camada 3 (Rede) se preocupa com os conceitos de roteamento, encaminhamento, endereçamento em uma rede 
+dispersa ou em varias redes conectadas. A camada de rede também pode gerenciar o controle de fluxo. Na 
+Internet, o Internet Protocol v4 (IPv4) e o IPv6 são usados ​​como os principais protocolos da camada de rede. Os
+protocolos usados são IP Internet Protocol, ICMP Internet Control Message Protocol, ARP Address Resolution Protocol, 
+RIP Routing Information Protocol.
+
+2 - Qual a diferença entre adotar uma solução proprietária como o sistema operacional Windows quando
+ comparado a adoção de uma solução OpenSource como o sistema operacional Ubuntu? Quais seriam os pontos
+  negativos e positivos de cada abordagem?
+R: A alguns pontos a serem pensados em adotar ambos os sistemas pois ambos tem suas especificidades. Falando
+do Windows primeiro pensaria em aspectos por exemplo meus funcionarios, normalmente as pessoas comunmente usam
+Windows o que de imediato não envolveria uma curva de aprendizado, é facil instalar aplicativos, e temos bastante 
+interfaces gráficas para uso rotineiro. O ponto negativo que diria seria em questão de custo pois precisa de 
+licença e dependendo do tamanho da empresa pode acarretar em um custo elevado de inicio, customização limitada.
+Agora pensando no linux, um dos pontos positivos é que ele é gratuito e temos varias versões podendo usar a que 
+melhor te agrada, além de poder customizar da forma que mais te agrada. Algo que vejo como ponto negativo é a curva
+de aprendizado, pois se vocẽ nunca teve contato talvez demore um pouco a se acostumar, e tambem pra quem não tem tanto
+contato com alinha de comando de inicio é um pouco assustador.
+
+3 - O que seria um projeto OpenSource? Como empresas podem adotar tais tecnologias e o que isso acarreta?
+R: Um projeto OpenSource, é um software de codigo aberto, e significa que qualqyer um pode ver, usar, 
+modificar e distribuir o projeto por qualquer motivo. Empresas podem adotar usando desde sistemas operacionais
+como linux, usando servidores web como Apache, ou usando banco de dados como PostgresSQL, MySQL, Redis. Isso acarreta
+em inovação pois vão ter pessoas de fora do projeto com ideias diferentes, redução de custos com licenças, customização
+para melhor resolução do que os agradam seja uma interface padronizada ou até mesmo alguma modificação em um sistema
+pois está sujeito a adaptação.
+
+Como segunda etapa, gostaríamos de ver alguns códigos gerados por ti. Sendo assim, pedimos que tu crie
+ códigos para os seguintes desafios.
+
+1 - Fibonacci
+
+    -- Criar uma função em sua linguagem preferida. A função deve receber um numero N >= 0 
+    (deve validar o input para a função), e retornar o valor correspondente desse número na sequência
+     Fibonacci. EX. fib(0) =0; fib(1) = 1; fib(2) = 1; fib(3) = 2; fib(5) = 5; fib(6) = 8.
+
+    --- Criar uma função recursiva que resolva Fibonacci
+
+    --- Criar uma função linear que resolva Fibonacci
+
+
+
+2 - Números primos
+
+    -- Criar uma função em sua linguagem preferida. A função deve receber um numero N > 1 
+    (validar o input), e retornar todos os números primos até o numero N. 
+    EX. p(2) = [2]; p(3) = [2, 3]; p(10) = [2, 3, 5, 7];
+
+    --- Criar uma função recursiva que resolva p
+
+    --- Criar uma função linear que resolva p
+
+
+
+Obs. Respostas criadas por IA como ChatGpt serão automaticamente desclassificadas.
+
+
+
+Assim que tu tiveres as respostas e os códigos para os desafios propostos, tu podes nos encaminhar 
+via e-mail (os códigos devem ser postados no Github) para que possamos analisar.

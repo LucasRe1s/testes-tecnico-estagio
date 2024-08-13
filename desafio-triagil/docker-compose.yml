@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  desafio-triagil-api:
+    image: postgres
+    container_name: desafio-triagil-api
+    environment:
+      POSTGRES_PASSWORD: pg12345
+      POSTGRES_USER: root
+      POSTGRES_DB: pgTriagil
+    ports:
+      - "5432:5432"
+    restart: always
